@@ -1,0 +1,6 @@
+[submodule "user"]
+	path = user
+	url = git@github.com:TeamFavr/user-service.git
+[submodule "restapi"]
+	path = restapi
+	url = git@github.com:TeamFavr/restapi-service.git
