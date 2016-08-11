@@ -4,3 +4,6 @@
 [submodule "restapi"]
 	path = restapi
 	url = git@github.com:TeamFavr/restapi-service.git
+[submodule "favour"]
+	path = favour
+	url = git@github.com:TeamFavr/favour-service.git

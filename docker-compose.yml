@@ -21,3 +21,12 @@ services:
       - "5001:80"
     links:
       - db
+  favour:
+    build: favour
+    command: python manage.py run
+    volumes:
+      - ./favour:/code
+    ports:
+      - "5002:80"
+    links:
+      - db
